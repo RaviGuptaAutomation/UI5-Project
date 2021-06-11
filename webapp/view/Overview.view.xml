@@ -1,0 +1,16 @@
+<mvc:View
+    controllerName="com.app.secondapp.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+				
+				<Page id="page" title="{i18n>title}">
+					<content >
+                            <mvc:XMLView viewName="com.app.secondapp.view.HelloPanel"></mvc:XMLView>
+                            <mvc:XMLView viewName="com.app.secondapp.view.InvoiceList"></mvc:XMLView>
+                    </content>
+				</Page>
+			
+	
+</mvc:View>
